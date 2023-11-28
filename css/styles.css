@@ -41,6 +41,7 @@ nav {
     padding: 25px 10px 0 10px;
     float: left;
     text-align: center;
+    color: lightsteelblue;
 }
 
 nav ul {
@@ -56,10 +57,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: cornflowerblue;
+    background:whitesmoke;
     border-radius: 10px;
-    color: white;
+    color: black;
 }
+
 
 #main {
     width: 446px;
@@ -67,13 +69,13 @@ nav ul li a:hover {
     float: left;
     color: antiquewhite;
     border-left: 2px solid;
-    border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
+    border-right: 2px solid;
 }
 
 #main p {
     text-indent: 1.5em;
     padding: 4em;
+    text-align: center;
 }
 
 figure{
@@ -93,9 +95,11 @@ aside {
 }
 
 aside p {
-    font-style: italic;
+    text-indent: 1.5em;
+    text-align: center
     font-size: 0.9em;
     padding-bottom: 3em;
+    color: cornsilk;
 }
 
 h2 {
@@ -128,6 +132,7 @@ footer {
     margin-bottom: 10px;
     border: 2px solid;
     border-radius: 25px;
+
 }/* navigation for footer */
 footer a:link {
     color: white;
@@ -150,7 +155,7 @@ form#survey {
     flex-flow: row wrap;
 }
 
-    form#survey > fieldset {
+form#survey > fieldset {
         background-color: rgb(241, 232, 181);
         border-radius: 20px;
         flex: 1 1 300px;
